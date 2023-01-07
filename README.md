@@ -36,5 +36,6 @@ The run time error should not occur.
 GHC version used: GHC 9.4.4
 
 Optional:
-    Operating System: Windows 10 Home (10.0.19044 build 19044)
-    System Architecture: x86_64
+
+* Operating System: Windows 10 Home (10.0.19044 build 19044)
+* System Architecture: x86_64
