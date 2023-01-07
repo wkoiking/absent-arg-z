@@ -22,10 +22,10 @@ Steps to reproduce
 
 Without optimization, this error seems to be avoided. i.e., below will not cause the error.
 
-~~
+~~~
 % stack clean
-% stack test -fast
-~~
+% stack test --fast
+~~~
 
 ## Expected behavior
 
