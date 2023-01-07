@@ -13,12 +13,12 @@ import Data.Maybe (fromMaybe)
 import Data.List (sortBy,  nub)
 import Data.Function (on)
 
--- track layout
+
 
 test_renderLayout :: IO ()
 test_renderLayout = mapM_ (print . fst) downTrackLayout
 
--- Mainline [線形データ]
+
 
 downTrackLayout :: [(TrackID, VentilationSectionID)]
 downTrackLayout  = concat
