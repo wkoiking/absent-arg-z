@@ -1,0 +1,135 @@
+module SP6.Data.ID
+    ( module SP6.Data.ID
+    , module SP6.Data.ID.Block
+    , module SP6.Data.ID.Track
+    , module SP6.Data.ID.Point
+    ) where
+
+-- hascats
+import SP6.Data.ID.Block
+import SP6.Data.ID.Track
+import SP6.Data.ID.Point
+-- array
+import Data.Array.IArray
+
+data VentilationSectionID
+    = VE001
+    | VE002
+    | VE003
+    | VE004
+    | VE005
+    | VE006
+    | VE007
+    | VE008
+    | VE009
+    | VE010
+    | VE011
+    | VE012
+    | VE013
+    | VE014
+    | VE015
+    | VE016
+    | VE017
+    | VE018
+    | VE019
+    | VE020
+    | VE021
+    | VE022
+    | VE023
+    | VE024
+    | VE025
+    | VE026
+    | VE027
+    | VE028
+    | VE029
+    | VE030
+    | VE031
+    | VE032
+    | VE033
+    | VE034
+    | VE035
+    | VE036
+    | VE037
+    | VE038
+    | VE039
+    | VE040
+    | VE041
+    | VE042
+    | VE043
+    | VE044
+    | VE045
+    | VE046
+    | VE047
+    | VE048
+    | VE049
+    | VE050
+    | VE051
+    | VE052
+    | VE053
+    | VE054
+    | VE055
+    | VE056
+    | VE057
+    | VE058
+    | VE059
+    | VE060
+    | VE061
+    | VE062
+    | VE063
+    | VE064
+    | VE065
+    | VE066
+    | VE067
+    | VE068
+    | VE069
+    | VE070
+    
+    | VE071
+    | VE072
+    | VE073
+    | VE074
+    | VE075
+    | VE076
+    | VE077
+    | VE078
+    | VE079
+    | VE080
+    | VE081
+    | VE082
+    | VE083
+    | VE084
+    | VE085
+    | VE086
+    | VE087
+    | VE088
+    | VE089
+    | VE090
+    | VE091
+    | VE092
+    | VE093
+    | VE094
+    | VE095
+    | VE096
+    | VE097
+    | VE098
+    | VE099
+    | VE100
+    | VE101
+    | VE102
+
+    | VE201
+    deriving (Show, Ord, Eq, Enum, Bounded, Ix)
+
+data SPT_ID
+    = SPT1
+    | SPT2
+    | SPT3
+    | SPT4
+    | SPT5
+    | SPT6
+    | SPT7
+    | SPT8
+    | SPT9
+    | SPT10
+    | SPT11
+    deriving (Show, Ord, Eq, Enum, Bounded, Ix)

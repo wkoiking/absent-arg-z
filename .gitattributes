@@ -1,0 +1,3 @@
+﻿*.svg -crlf -diff
+*.dwg -crlf -diff
+*.hs eol=crlf

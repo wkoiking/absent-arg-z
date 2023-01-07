@@ -1,0 +1,43 @@
+name:                absent-arg-z
+version:             0.1.0.0
+synopsis:            Oops! Enter absent arg z
+license:             BSD3
+license-file:        LICENSE
+author:              Nao Fujinaga
+maintainer:          wanagida@gmail.com
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     SP6.Data.MainApp
+                       SP6.Data.ID
+                       SP6.Data.ID.Block
+                       SP6.Data.ID.Track
+                       SP6.Data.ID.Point
+                       SP6.Data.Common
+                       SP6.Data.Layout
+                       SP6.Data.VisualElements
+                       SP6.Data.SegmentDiagram
+
+  default-extensions:    StrictData
+                       , TupleSections
+
+  build-depends:         base
+                       , data-default-class
+                       , array
+
+  ghc-options:         -Wall
+
+  default-language:    Haskell2010
+
+test-suite test-exe
+  type:                exitcode-stdio-1.0
+  main-is:             Spec.hs
+  hs-source-dirs:      test
+  default-extensions:    StrictData
+                       , TupleSections
+  build-depends:         base
+                       , absent-arg-z
+  default-language:    Haskell2010
