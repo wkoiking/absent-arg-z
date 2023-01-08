@@ -28,20 +28,22 @@ test_renderLayout :: IO ()
 test_renderLayout = mapM_ (print . fst) downTrackLayout
 
 downTrackLayout :: [(TrackID, VentilationSectionID)]
-downTrackLayout  = map track $ concat
-    [ downTracks_5
-    , downTracks_4
-    , downTracks_3
-    , downTracks_2
-    , downTracks_1
-    , downTracks0
-    , downTracks1
-    , downTracks2
-    , downTracks3
-    , downTracks5
-    , downTracks6
-    , downTracks7
-    ]
+downTrackLayout  = map track downTracks
+ where downTracks :: [TrackID]
+       downTracks = concat
+           [ downTracks_5
+           , downTracks_4
+           , downTracks_3
+           , downTracks_2
+           , downTracks_1
+           , downTracks0
+           , downTracks1
+           , downTracks2
+           , downTracks3
+           , downTracks5
+           , downTracks6
+           , downTracks7
+           ]
 
 track :: TrackID -> (TrackID, VentilationSectionID)
 track trackID = (trackID, fromMaybe VE001 $ arrTrackToVentilationSection ! trackID)
