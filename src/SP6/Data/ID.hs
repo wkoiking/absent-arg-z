@@ -2,13 +2,11 @@ module SP6.Data.ID
     ( module SP6.Data.ID
     , module SP6.Data.ID.Block
     , module SP6.Data.ID.Track
-    , module SP6.Data.ID.Point
     ) where
 
 -- hascats
 import SP6.Data.ID.Block
 import SP6.Data.ID.Track
-import SP6.Data.ID.Point
 -- array
 import Data.Array.IArray
 

@@ -15,7 +15,6 @@ library
                        SP6.Data.ID
                        SP6.Data.ID.Block
                        SP6.Data.ID.Track
-                       SP6.Data.ID.Point
                        SP6.Data.Common
                        SP6.Data.Layout
                        SP6.Data.VisualElements
