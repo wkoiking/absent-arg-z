@@ -4,8 +4,7 @@ import SP6.Data.ID (TrackID(..))
 
 downTracks_5 :: [TrackID]
 downTracks_5 =
-    [ T801F
-    ]
+    [ T801F ]
 
 downTracks_4 :: [TrackID]
 downTracks_4 =
@@ -109,23 +108,10 @@ downTracks3 =
     , T801B
     , T803B
     ]
-downTracksLeftJLA :: [TrackID]
-downTracksLeftJLA =
-    [ T805B
-    , T807B
-    , T809B
-    ]
 
 downTracks4 :: [TrackID]
 downTracks4 =
-    [ T815B
-    ]
-
-downTracksRightJLA :: [TrackID]
-downTracksRightJLA =
-    [ T821B
-    , T823B
-    ]
+    [ T815B ]
 
 downTracks5 :: [TrackID]
 downTracks5 =
@@ -140,10 +126,8 @@ downTracks5 =
 
 downTracks6 :: [TrackID]
 downTracks6 =
-    [ T813A
-    ]
+    [ T813A ]
 
 downTracks7 :: [TrackID]
 downTracks7 =
-    [ T817A
-    ]
+    [ T817A ]
