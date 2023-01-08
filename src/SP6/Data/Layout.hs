@@ -10,8 +10,6 @@ import SP6.Data.VisualElements
 import Data.Array.IArray
 -- base
 import Data.Maybe (fromMaybe)
-import Data.List (sortBy,  nub)
-import Data.Function (on)
 
 test_renderLayout :: IO ()
 test_renderLayout = mapM_ (print . fst) downTrackLayout
@@ -49,11 +47,3 @@ downlineTracks = map fst downTrackLayout
 downlineBlocks :: [BlockID]
 downlineBlocks = concatMap (arrTrackBlock !) downlineTracks
 
-asocVentilationSectionToBlocks :: [(VentilationSectionID, [BlockID])]
-asocVentilationSectionToBlocks = sortBy (compare `on` fst) $ zip [VE001 ..] $ map return downlineBlocks
-
-asocTrackToVESection :: [(TrackID, VentilationSectionID)]
-asocTrackToVESection = concatMap toAsoc asocVentilationSectionToBlocks
- where toAsoc :: (VentilationSectionID, [BlockID]) -> [(TrackID, VentilationSectionID)]
-       toAsoc (sectionID, blocks) = map (, sectionID) tracks
-        where tracks = nub $ map (arrBlockTrack !) blocks
