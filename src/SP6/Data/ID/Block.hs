@@ -7,7 +7,6 @@ import Data.Default.Class
 
 data BlockID
     = VB000X
-    -- Main Line (Ver.M)
     | VBN07D
     | VBN05DA
     | VBN05DB
@@ -537,18 +536,12 @@ data BlockID
     | VB363UA
     | VB363UB
     | VB364U
-
     | VB094MA
     | VB094MB
     | VB095M
-    
-    -- JLA L9
-
     | VB303L9
     | VB304L9
     | VB306L9
-
-    -- Depot
     | VB318L1
     | VB316L2
     | VB317L2
@@ -605,20 +598,14 @@ data BlockID
     | VB320T
     | VB313UL
     | VB314UL
-
     | VB308L9
     | VB309L9
     | VB310L9A
     | VB310L9B
---     | VB311L9 (Ver. AA手動改修）
-
     | VB309L10A
     | VB309L10B
     | VB310L10A
     | VB310L10B
---     | VB311L10 (Ver. AA手動改修）
-
-    --  Stabling lines
     | VB302S1
     | VB304S1
     | VB302S2
@@ -654,17 +641,13 @@ data BlockID
     | VB301S9
     | VB303S9A
     | VB303S9B
-
-    | VB304S9 -- 特殊！
-
+    | VB304S9
     | VB300S10
     | VB301S10
     | VB306S11
     | VB307S11A
     | VB307S11B
     | VB309S11
-
-    -- T806H
     | VB_SL1
     | VB_SL2
     | VB_SL3
@@ -672,7 +655,6 @@ data BlockID
     | VB_SL5
     | VB_SL6
     | VB_SL7
-    -- T830H
     | VB_SR1
     | VB_SR2
     | VB_SR3
@@ -680,7 +662,6 @@ data BlockID
     | VB_SR5
     | VB_SR6
     | VB_SR7
-    -- Shunting Neck Right
     | VB_SNR
     deriving (Show, Ord, Eq, Enum, Bounded, Ix)
 

@@ -5,8 +5,7 @@ import Data.Ix
 -- data-default-class
 import Data.Default.Class
 
-data PointID -- PのSBLの並び
-    -- KIKD OC808
+data PointID
     = P801G
     | P802G
     | P803G
@@ -30,7 +29,6 @@ data PointID -- PのSBLの並び
     | P821G
     | P822G
     | P891G
-    -- JSTB OC807
     | P801H
     | P802H
     | P803H
@@ -59,7 +57,6 @@ data PointID -- PのSBLの並び
     | P826H
     | P827H
     | P828H
-    -- JPW OC806
     | P801F
     | P802F
     | P803F
@@ -70,24 +67,20 @@ data PointID -- PのSBLの並び
     | P808F
     | P809F
     | P810F
-    -- IGDA OC805
     | P801E
     | P802E
     | P803E
     | P804E
     | P805E
     | P806E
-    -- RKPM OC804
     | P801D
     | P802D
     | P803D
     | P804D
-    -- IWNR OC803
     | P801C
     | P802C
     | P803C
     | P804C
-    -- JLA  OC802
     | P801B
     | P802B
     | P803B
@@ -103,7 +96,6 @@ data PointID -- PのSBLの並び
     | P815B
     | P816B
     | P817B
-    -- BTDG OC801
     | P801A
     | P802A
     | P803A

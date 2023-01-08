@@ -83,7 +83,7 @@ downTracks1 =
     , (T813C, 15 - trackSepLength)
     , (T843C, 5)
     ]
--- <KJMD Turnout>
+
 downTracks2 :: [(TrackID, Double)]
 downTracks2 =
     [ (T815C, 10)
@@ -95,7 +95,7 @@ downTracks2 =
     , (T825C, 15 - trackSepLength)
     , (T827C, 5)
     ]
--- <IWNR Turnout>
+
 downTracks3 :: [(TrackID, Double)]
 downTracks3 =
     [ (T831C, 10)
@@ -107,16 +107,17 @@ downTracks3 =
     , (T801B, 15)
     , (T803B, 10)
     ]
+
 downTracksLeftJLA :: [(TrackID, Double)]
 downTracksLeftJLA =
     [ (T805B, 5)
     , (T807B, 20 - trackSepLength)
     , (T809B, 5)
     ]
--- <JLA Turnout>
+
 downTracks4 :: [(TrackID, Double)]
 downTracks4 = [ (T815B, 10) ]
--- <JLA Turnout>
+
 downTracksRightJLA :: [(TrackID, Double)]
 downTracksRightJLA =
     [ (T821B, 5)
@@ -133,10 +134,10 @@ downTracks5 =
     , (T807A, 20 - trackSepLength)
     , (T809A, 5)
     ]
--- <BCGN Turnout>
+
 downTracks6 :: [(TrackID, Double)]
 downTracks6 = [ (T813A, 10) ]
--- <BCGN Turnout>
+
 downTracks7 :: [(TrackID, Double)]
 downTracks7 = [ (T817A, 10) ]
 

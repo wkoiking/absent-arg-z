@@ -5,9 +5,8 @@ import Data.Ix
 -- data-default-class
 import Data.Default.Class
 
-data TrackID -- LoのTrack Occupiedの並び
+data TrackID
     = T800X
-    -- KIKD OC808
     | T801G
     | T802G
     | T803G
@@ -28,7 +27,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T818G
     | T819G
     | T820G
-    -- JSTB OC807
     | T801H
     | T802H
     | T803H
@@ -62,7 +60,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T831H
     | T832H
     | T833H
-    -- JPW
     | T801F
     | T803F
     | T805F
@@ -109,7 +106,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T806F
     | T804F
     | T802F
-    -- IGDA
     | T801E
     | T803E
     | T805E
@@ -136,7 +132,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T806E
     | T804E
     | T802E
-    -- RKPM
     | T801D
     | T803D
     | T805D
@@ -179,7 +174,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T806D
     | T804D
     | T802D
-    -- IWNR OC803
     | T801C
     | T803C
     | T805C
@@ -228,7 +222,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T806C
     | T804C
     | T802C
-    -- JLA  OC802
     | T801B
     | T803B
     | T805B
@@ -260,7 +253,6 @@ data TrackID -- LoのTrack Occupiedの並び
     | T829B
     | T831B
     | T833B
-    -- BTDG OC801
     | T801A
     | T803A
     | T805A
