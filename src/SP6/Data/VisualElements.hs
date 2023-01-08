@@ -1,6 +1,6 @@
 module SP6.Data.VisualElements where
 
-import SP6.Data.ID
+import SP6.Data.ID (TrackID(..))
 
 downTracks_5 :: [(TrackID, Double)]
 downTracks_5 = [ (T801F, 10) ]

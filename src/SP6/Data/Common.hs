@@ -1,7 +1,4 @@
 {-# LANGUAGE FlexibleContexts #-}
-{-# LANGUAGE FlexibleInstances #-}
-
--- | Common Data Structures etc.
 
 module SP6.Data.Common where
 

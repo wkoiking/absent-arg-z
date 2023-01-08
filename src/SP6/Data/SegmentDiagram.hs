@@ -1,7 +1,7 @@
 module SP6.Data.SegmentDiagram where
 
-import SP6.Data.ID
-import SP6.Data.Common
+import SP6.Data.ID (TrackID(..), BlockID(..))
+import SP6.Data.Common (safeArray)
 
 -- array
 import Data.Array.IArray

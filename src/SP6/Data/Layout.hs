@@ -1,10 +1,23 @@
 module SP6.Data.Layout where
 
 -- hascats
-import SP6.Data.ID
-import SP6.Data.Common
-import SP6.Data.SegmentDiagram
-import SP6.Data.VisualElements
+import SP6.Data.ID (TrackID, BlockID, VentilationSectionID(..))
+import SP6.Data.Common (safeArray2)
+import SP6.Data.SegmentDiagram (arrTrackBlock)
+import SP6.Data.VisualElements 
+    ( downTracks_5
+    , downTracks_4
+    , downTracks_3
+    , downTracks_2
+    , downTracks_1
+    , downTracks0
+    , downTracks1
+    , downTracks2
+    , downTracks3
+    , downTracks5
+    , downTracks6
+    , downTracks7
+    )
 
 -- array
 import Data.Array.IArray
