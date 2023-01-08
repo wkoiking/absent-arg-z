@@ -2,144 +2,148 @@ module SP6.Data.VisualElements where
 
 import SP6.Data.ID (TrackID(..))
 
-downTracks_5 :: [(TrackID, Double)]
-downTracks_5 = [ (T801F, 10) ]
+downTracks_5 :: [TrackID]
+downTracks_5 =
+    [ T801F
+    ]
 
-downTracks_4 :: [(TrackID, Double)]
+downTracks_4 :: [TrackID]
 downTracks_4 =
-    [ (T805F, 10 )
-    , (T807F, 5)
-    , (T809F, 10)
+    [ T805F
+    , T807F
+    , T809F
     ]
 
-downTracks_3 :: [(TrackID, Double)]
+downTracks_3 :: [TrackID]
 downTracks_3 =
-    [ (T813F, 5)
-    , (T815F, 25)
-    , (T817F, 10)
-    , (T819F, 5)
-    , (T821F, 20)
-    , (T823F, 10)
-    , (T825F, 5)
-    , (T827F, 20)
-    , (T829F, 10)
-    , (T831F, 5)
-    , (T833F, 35 - trackSepLength)
-    , (T839F, 5)
-    , (T841F, 5)
-    , (T835F, 10)
+    [ T813F
+    , T815F
+    , T817F
+    , T819F
+    , T821F
+    , T823F
+    , T825F
+    , T827F
+    , T829F
+    , T831F
+    , T833F
+    , T839F
+    , T841F
+    , T835F
     ]
 
-downTracks_2 :: [(TrackID, Double)]
+downTracks_2 :: [TrackID]
 downTracks_2 =
-    [ (T843F, 5)
-    , (T801E, 20)
-    , (T803E, 10)
+    [ T843F
+    , T801E
+    , T803E
     ]
 
-downTracks_1 :: [(TrackID, Double)]
+downTracks_1 :: [TrackID]
 downTracks_1 =
-    [ (T807E, 10) ]
+    [ T807E ]
 
-downTracks0 :: [(TrackID, Double)]
+downTracks0 :: [TrackID]
 downTracks0 =
-    [ (T811E, 5)
-    , (T813E, 25)
-    , (T815E, 10)
-    , (T817E, 5)
-    , (T819E, 20)
-    , (T821E, 10)
-    , (T823E, 5)
-    , (T801D, 20)
-    , (T803D, 10)
-    , (T805D, 5)
-    , (T807D, 20 - trackSepLength)
-    , (T809D, 5)
-    , (T811D, 5)
-    , (T813D, 10)
+    [ T811E
+    , T813E
+    , T815E
+    , T817E
+    , T819E
+    , T821E
+    , T823E
+    , T801D
+    , T803D
+    , T805D
+    , T807D
+    , T809D
+    , T811D
+    , T813D
     ]
 
-downTracks1 :: [(TrackID, Double)]
+downTracks1 :: [TrackID]
 downTracks1 =
-    [ (T817D, 5)
-    , (T819D, 15)
-    , (T821D, 10)
-    , (T823D, 5)
-    , (T825D, 15)
-    , (T827D, 10)
-    , (T829D, 5)
-    , (T831D, 20)
-    , (T833D, 10)
-    , (T835D, 5)
-    , (T837D, 15)
-    , (T839D, 10)
-    , (T841D, 5)
-    , (T801C, 15)
-    , (T803C, 10)
-    , (T805C, 5)
-    , (T807C, 20)
-    , (T809C, 10)
-    , (T811C, 5)
-    , (T813C, 15 - trackSepLength)
-    , (T843C, 5)
+    [ T817D
+    , T819D
+    , T821D
+    , T823D
+    , T825D
+    , T827D
+    , T829D
+    , T831D
+    , T833D
+    , T835D
+    , T837D
+    , T839D
+    , T841D
+    , T801C
+    , T803C
+    , T805C
+    , T807C
+    , T809C
+    , T811C
+    , T813C
+    , T843C
     ]
 
-downTracks2 :: [(TrackID, Double)]
+downTracks2 :: [TrackID]
 downTracks2 =
-    [ (T815C, 10)
-    , (T817C, 5)
-    , (T847C, 5)
-    , (T819C, 20)
-    , (T821C, 10)
-    , (T823C, 5)
-    , (T825C, 15 - trackSepLength)
-    , (T827C, 5)
+    [ T815C
+    , T817C
+    , T847C
+    , T819C
+    , T821C
+    , T823C
+    , T825C
+    , T827C
     ]
 
-downTracks3 :: [(TrackID, Double)]
+downTracks3 :: [TrackID]
 downTracks3 =
-    [ (T831C, 10)
-    , (T833C, 5)
-    , (T835C, 5)
-    , (T837C, 20)
-    , (T839C, 10)
-    , (T841C, 5)
-    , (T801B, 15)
-    , (T803B, 10)
+    [ T831C
+    , T833C
+    , T835C
+    , T837C
+    , T839C
+    , T841C
+    , T801B
+    , T803B
     ]
-
-downTracksLeftJLA :: [(TrackID, Double)]
+downTracksLeftJLA :: [TrackID]
 downTracksLeftJLA =
-    [ (T805B, 5)
-    , (T807B, 20 - trackSepLength)
-    , (T809B, 5)
+    [ T805B
+    , T807B
+    , T809B
     ]
 
-downTracks4 :: [(TrackID, Double)]
-downTracks4 = [ (T815B, 10) ]
+downTracks4 :: [TrackID]
+downTracks4 =
+    [ T815B
+    ]
 
-downTracksRightJLA :: [(TrackID, Double)]
+downTracksRightJLA :: [TrackID]
 downTracksRightJLA =
-    [ (T821B, 5)
-    , (T823B, 25)
+    [ T821B
+    , T823B
     ]
 
-downTracks5 :: [(TrackID, Double)]
+downTracks5 :: [TrackID]
 downTracks5 =
-    [ (T825B, 10)
-    , (T827B, 5)
-    , (T801A, 20)
-    , (T803A, 10)
-    , (T805A, 5)
-    , (T807A, 20 - trackSepLength)
-    , (T809A, 5)
+    [ T825B
+    , T827B
+    , T801A
+    , T803A
+    , T805A
+    , T807A
+    , T809A
     ]
 
-downTracks6 :: [(TrackID, Double)]
-downTracks6 = [ (T813A, 10) ]
+downTracks6 :: [TrackID]
+downTracks6 =
+    [ T813A
+    ]
 
-downTracks7 :: [(TrackID, Double)]
-downTracks7 = [ (T817A, 10) ]
-
-trackSepLength :: Double
-trackSepLength = 0.5
+downTracks7 :: [TrackID]
+downTracks7 =
+    [ T817A
+    ]
