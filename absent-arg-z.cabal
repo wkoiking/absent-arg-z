@@ -11,8 +11,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     SP6.Data.MainApp
-                       SP6.Data.ID
+  exposed-modules:     SP6.Data.ID
                        SP6.Data.ID.Block
                        SP6.Data.ID.Track
                        SP6.Data.Common

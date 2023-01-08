@@ -1,6 +1,6 @@
 module Main where
 
-import SP6.Data.MainApp (mainApp)
+import SP6.Data.Layout (test_renderLayout)
 
 main :: IO ()
-main = mainApp
+main = test_renderLayout
