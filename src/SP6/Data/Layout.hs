@@ -47,7 +47,7 @@ track :: TrackID -> (TrackID, VentilationSectionID)
 track trackID = (trackID, fromMaybe VE001 $ arrTrackToVentilationSection ! trackID)
 
 arrTrackToVentilationSection :: Array TrackID (Maybe VentilationSectionID)
-arrTrackToVentilationSection = safeArray2 $ zip  downlineTracks [VE001 ..]
+arrTrackToVentilationSection = safeArray2 $ zip downlineTracks [VE001 ..]
 
 downlineTracks :: [TrackID]
 downlineTracks = map fst downTrackLayout
