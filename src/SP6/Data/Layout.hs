@@ -36,14 +36,10 @@ mapTrack :: [(TrackID, Double)] -> [(TrackID, VentilationSectionID)]
 mapTrack = map $ track . fst
 
 track :: TrackID -> (TrackID, VentilationSectionID)
-track trackID = (trackID, veButton)
- where veButton :: VentilationSectionID
-       veButton = fromMaybe VE001 $ do
-           veID <- arrTrackToVentilationSection ! trackID
-           return veID
+track trackID = (trackID, fromMaybe VE001 $ arrTrackToVentilationSection ! trackID)
 
 arrTrackToVentilationSection :: Array TrackID (Maybe VentilationSectionID)
-arrTrackToVentilationSection = safeArray2 $ zip  downlineTracks [VE001 ..] -- asocTrackToVESection
+arrTrackToVentilationSection = safeArray2 $ zip  downlineTracks [VE001 ..]
 
 downlineTracks :: [TrackID]
 downlineTracks = map fst downTrackLayout
