@@ -45,11 +45,11 @@ ghc-options:
     "$locals":
         # -fwrite-ide-info
         -threaded
-        -fno-warn-unused-binds
-        -fno-warn-unused-matches
-        -fno-warn-unused-do-bind
-        -fno-warn-name-shadowing
-        -fno-warn-orphans
+        # -fno-warn-unused-binds
+        # -fno-warn-unused-matches
+        # -fno-warn-unused-do-bind
+        # -fno-warn-name-shadowing
+        # -fno-warn-orphans
         # -fno-warn-unused-imports
         # -rtsopts
         # -fno-warn-unused-record-wildcards -- not in GHC 8.4.4
